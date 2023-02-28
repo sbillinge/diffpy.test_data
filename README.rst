@@ -12,7 +12,7 @@ diffpy.test_data
 Community shared diffraction data for testing data reduction and modeling codes
 
 * Free software: 3-clause BSD license
-* Documentation: (COMING SOON!) https://sbillinge.github.io/diffpy.test_data.
+* Documentation:  (COMING SOON!) https://sbillinge.github.io/diffpy.test_data.
 
 Features
 --------

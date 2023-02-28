@@ -10,13 +10,14 @@ repos:
     hooks:
       - id: flake8
   - repo: https://github.com/pycqa/isort
-    rev: 5.11.2
+    rev: 5.12.0
     hooks:
       - id: isort
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
-    - id: no-commit-to-branch --branch main
+    - id: no-commit-to-branch
+      args: ['--branch', 'main']
     - id: check-yaml
     - id: end-of-file-fixer
     - id: trailing-whitespace
